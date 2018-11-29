@@ -15,18 +15,19 @@ Derivation of the pendulum formula
 <img src="http://www.sciweavers.org/tex2img.php?eq=T%20%3D%20%5Cfrac%7B1%7D%7B2%7Dm%28v_%7Bx%7D%5E2%2Bv_%7By%7D%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="T = \frac{1}{2}m(v_{x}^2+v_{y}^2)" width="143" height="43" />
 
 ###### Now from the diagram we can see using trignometry that
-<img src="http://www.sciweavers.org/tex2img.php?eq=r%20%3D%20%5Cbegin%7Bcases%7D%0Ar_%7Bx%7D%20%3D%20r%20sin%28%5Ctheta%28t%29%29%20%5C%5C%0Ar_%7By%7D%20%3D%20r%20cos%28%5Ctheta%28t%29%29%0A%5Cend%7Bcases%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="r = \begin{cases}r_{x} = r sin(\theta(t)) \\r_{y} = r cos(\theta(t))\end{cases}" width="165" height="47" />
+<img src="http://www.sciweavers.org/tex2img.php?eq=r%20%3D%20%5Cbegin%7Bcases%7Dr_%7Bx%7D%20%3D%20r%20sin%28%5Ctheta%28t%29%29%20%5C%5Cr_%7By%7D%20%3D%20r%20cos%28%5Ctheta%28t%29%29%5Cend%7Bcases%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="r = \begin{cases}r_{x} = r sin(\theta(t)) \\r_{y} = r cos(\theta(t))\end{cases}" width="165" height="47" />
 
 ###### From this we can get the derivative is
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdot%7Br%7D%20%3D%20%5Cbegin%7Bcases%7D%0A%5Cdot%7Br_%7Bx%7D%7D%20%3D%20r%5Cdot%7B%5Ctheta%28t%29%7D%20cos%28%5Ctheta%28t%29%29%20%5C%5C%0A%5Cdot%7Br_%7By%7D%7D%20%3D%20-r%5Cdot%7B%5Ctheta%28t%29%7D%20sin%28%5Ctheta%28t%29%29%0A%5Cend%7Bcases%7D%0A%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dot{r} = \begin{cases}\dot{r_{x}} = r\dot{\theta(t)} cos(\theta(t)) \\\dot{r_{y}} = -r\dot{\theta(t)} sin(\theta(t))\end{cases}" width="207" height="49" />
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdot%7Br%7D%20%3D%20%5Cbegin%7Bcases%7D%5Cdot%7Br_%7Bx%7D%7D%20%3D%20r%5Cdot%7B%5Ctheta%28t%29%7D%20cos%28%5Ctheta%28t%29%29%20%5C%5C%5Cdot%7Br_%7By%7D%7D%20%3D%20-r%5Cdot%7B%5Ctheta%28t%29%7D%20sin%28%5Ctheta%28t%29%29%5Cend%7Bcases%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dot{r} = \begin{cases}\dot{r_{x}} = r\dot{\theta(t)} cos(\theta(t)) \\\dot{r_{y}} = -r\dot{\theta(t)} sin(\theta(t))\end{cases}" width="207" height="49" />
 
 ###### Finally the kinetic energy is then
-<img src="http://www.sciweavers.org/tex2img.php?eq=T%20%3D%20%5Cfrac%7B1%7D%7B2%7Dm%28%5Cdot%7B%5Ctheta%28t%29%7D%5E2r%5E2cos%5E2%28%5Ctheta%29%2B%5Cdot%7B%5Ctheta%7D%5E2r%5E2%20sin%5E2%28%5Ctheta%28t%29%29%29%20%3D%20%5Cfrac%7B1%7D%7B2%7Dmr%5E2%5Cdot%7B%5Ctheta%7D%5E2%0A%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="T = \frac{1}{2}m(\dot{\theta(t)}^2r^2cos^2(\theta)+\dot{\theta}^2r^2 sin^2(\theta(t))) = \frac{1}{2}mr^2\dot{\theta}^2" width="429" height="43" />
+<img src="http://www.sciweavers.org/tex2img.php?eq=T%20%3D%20%5Cfrac%7B1%7D%7B2%7Dm%28%5Cdot%7B%5Ctheta%28t%29%7D%5E2r%5E2cos%5E2%28%5Ctheta%29%2B%5Cdot%7B%5Ctheta%7D%5E2r%5E2%20sin%5E2%28%5Ctheta%28t%29%29%29%20%3D%20%5Cfrac%7B1%7D%7B2%7Dmr%5E2%5Cdot%7B%5Ctheta%7D%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="T = \frac{1}{2}m(\dot{\theta(t)}^2r^2cos^2(\theta)+\dot{\theta}^2r^2 sin^2(\theta(t))) = \frac{1}{2}mr^2\dot{\theta}^2" width="429" height="43" />
 
 ###### Now similarly we the potential energy we have
 <img src="http://www.sciweavers.org/tex2img.php?eq=V%20%3D%20mgh%20%3D%20-mgrcos%28%5Ctheta%28t%29%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="V = mgh = -mgrcos(\theta(t))" width="222" height="19" />
 <h6>Now we have made the point of 0 potential energy at y=0 therefore all heights below it will be negitive
 so now the ligrangian becomes</h6>
+
 <img src="http://www.sciweavers.org/tex2img.php?eq=L%20%3D%20%5Cfrac%7B1%7D%7B2%7Dmr%5E2%5Cdot%7B%5Ctheta%7D%5E2%20%2B%20mgrcos%28%5Ctheta%28t%29%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="L = \frac{1}{2}mr^2\dot{\theta}^2 + mgrcos(\theta(t))" width="233" height="43" />
 ###### Now the Euler legrange equation is
 <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7Bd%7D%7Bdt%7D%5Cfrac%7BdL%7D%7Bd%5Cdot%7B%5Ctheta%7D%7D-%5Cfrac%7BdL%7D%7Bd%5Ctheta%7D%20%3D%200&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\frac{d}{dt}\frac{dL}{d\dot{\theta}}-\frac{dL}{d\theta} = 0" width="125" height="44" />
